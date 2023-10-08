@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const baseUrl = 'http://localhost:5000'
+// const baseUrl = 'http://localhost:5000'
+const baseUrl = 'https://to-do-list-backend-b4gs.onrender.com'
 
 const getAllToDo = (setToDo) => {
     axios
